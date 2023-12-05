@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Tajawal', sans-serif;
+  background-color: white!important;
+}
+:root{
+  --main-color:#1f2278;
+  --orange-color: #f17732;
+  --btn-color:#565acf ;
+}
+a{
+  text-decoration: none !important;
+}
+span{
+  display: block;
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+li{
+  list-style-type: none;
+}
+button{
+  text-align: center;
+  box-sizing: border-box;
+  height: 40px;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+section , footer , header{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 25px 0;
+  margin-top: 50px;
+}
+p{
+  line-height: 28px;
+}
+input{
+  box-sizing: border-box;
+  border: 1px solid white;
+  text-align: left;
+  padding: 5px 15px;
+  color: #333;
+  font-size: 16px;
+  font-family: 'Tajawal';
+}
